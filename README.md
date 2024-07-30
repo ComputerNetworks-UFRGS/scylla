@@ -27,7 +27,7 @@ In comparative evaluations of functionality, **solution** has proven to outperfo
 
 To use **Scylla**, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/casonatti/blockchain_protection`
+1. Clone the repository: `git clone git@github.com:ComputerNetworks-UFRGS/scylla.git`
 2. Follow the installation instructions in the provided documentation [TODO]
 3. Execute **Scylla** during the boot time to enable automatic protection.
 
