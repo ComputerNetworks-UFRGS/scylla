@@ -1,0 +1,31 @@
+teste 0 = comparcao entre abordagens (ambas on - 150us delay entre iteracoes)
+	rodar o programa de teste com inotify (sem ebpf)
+	rodar o programa de teste com ebpf (sem inotify)
+	plotar graficos
+
+teste 1 = (access time) comparcao entre abordagens (separadas - 150us delay entre iteracoes)
+	rodar o programa de teste com inotify (sem ebpf)
+	rodar o programa de teste com ebpf (sem inotify)
+	plotar graficos
+
+teste 2 = overhead ebpf (150us delay entre iteracoes)
+	rodar o programa de teste sem ebpf
+	rodar o programa de teste com o ebpf
+	plotar graficos
+	
+teste 3 = (access_fault) taxa de falhas (sem delay entre as iteracoes)
+	rodar o programa de teste sem ebpf/inotify
+	rodar o programa de teste com o ebpf/inotify
+	alterar nro de iteracoes
+	
+	resultados (3 amostras sem delay):
+		media de acesso ebpf: 6157.3333 (38,427% taxa de erros)
+		media de acesso inotify: 2162,0000 (78,38% taxa de erros)
+		desvio padrao ebpf: 991,5675
+		desvio padrao inotify: 5,3541
+	
+	TODO: subir o delay até encontrar o ponto que o ebpf não falha mais
+		delay minimo para o programa ebpf nao falhar = 270ns
+			programa inotify tem perdas com esse delay (entre 500 a 800 em 100000 acessos)
+	
+	obs.: apos a analise dos resultados do teste 3, foram feitos outros testes usando scripts em shell, nos quais o programa em ebpf capturou todas as chamadas
