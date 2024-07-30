@@ -19,7 +19,7 @@ In this repository, we introduce **Scylla**, an  solution  designed to enhance t
 
 During execution, **Scylla** actively monitors the system calls of processes aiming to access sensitive files. This proactive approach allows it to intercept and prevent unauthorized attempts to read or modify the content of a file. Evaluations of **Scylla** demonstrate its capability to achieve these security objectives without introducing significant overhead to legitimate processes.
 
-## Performance Comparison
+## Comparison to Other Tools
 
 In comparative evaluations of functionality, **solution** has proven to outperform *inotify*, a Linux kernel subsystem designed for monitoring changes in the filesystem. Unlike *inotify*, **Scylla** goes beyond monitoring, actively preventing unauthorized file access and providing a more robust security solution for BC wallet-related files.
 
