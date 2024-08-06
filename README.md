@@ -5,15 +5,17 @@
 
 ## Introduction
 
-In this repository, we introduce **Scylla**, an  solution  designed to enhance the security of Blockchain (BC) wallet-related files by preventing unauthorized access through the utilization of extended Berkeley Packet Filter (eBPF). The proposed solution employs fine-grained access control mechanisms, providing robust protection for critical files, including account files. This is achieved by actively monitoring system calls of processes directed towards these sensitive files.
+In this repository, we introduce **Scylla**, an  solution  designed to enhance the security of blockchain (BC) and Distributed Ledger Technology (DLT) wallet-related files by preventing unauthorized access through the utilization of extended Berkeley Packet Filter (eBPF). The proposed solution employs fine-grained access control mechanisms, providing robust protection for critical files, including account files. This is achieved by actively monitoring system calls of processes directed towards these sensitive files.
+
+Scylla was approved for publication as a full-paper in the [IEEE Global Communications Conference (GLOBECOM 2024)](https://globecom2024.ieee-globecom.org/).
 
 ## Key Features
 
-- **Fine-grained Access Control:** **Scylla** implements fine-grained access control measures to safeguard critical files, ensuring that only authorized processes can interact with them.
+- **Fine-grained Access Control:** **Scylla** implements fine-grained access control measures to protect critical files, ensuring that only authorized processes can access them.
 
-- **Automatic Execution:** The solution is designed to be executed automatically during system boot time, ensuring seamless and continuous protection.
+- **Automatic Execution:** The solution is designed to be executed automatically during system boot time.
 
-- **Protection Based on Inodes:** **Scylla** protects itself and user-defined files based on their *inodes*, providing an additional layer of security.
+- **Protection Based on Inodes:** **Scylla** can be ajusted to protects itself and user-defined files based on their *inodes*, providing an additional layer of security.
 
 ## How it Works
 
@@ -21,7 +23,7 @@ During execution, **Scylla** actively monitors the system calls of processes aim
 
 ## Comparison to Other Tools
 
-In comparative evaluations of functionality, **solution** has proven to outperform *inotify*, a Linux kernel subsystem designed for monitoring changes in the filesystem. Unlike *inotify*, **Scylla** goes beyond monitoring, actively preventing unauthorized file access and providing a more robust security solution for BC wallet-related files.
+In comparative evaluations of functionality, **Scylla** has proven to outperform *inotify*, a Linux kernel subsystem designed for monitoring changes in the filesystem. Unlike *inotify*, **Scylla** goes beyond monitoring, actively preventing unauthorized file access and providing a more robust security solution for BC wallet-related files.
 
 ## Getting Started
 
@@ -41,7 +43,7 @@ This project is licensed under the [Apache License 2.0](LICENSE) - see the [LICE
 
 ## Acknowledgments
 
-We would like to express our gratitude to the open-source community and contributors for their valuable feedback and contributions to enhance the effectiveness of **Scylla**.
+We would like to express our gratitude to the open-source community and contributors for their valuable feedback and contributions to enhance **Scylla**.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Language](https://img.shields.io/badge/Language-Python-green.svg)](https://www.python.org/)
