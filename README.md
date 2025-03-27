@@ -10,6 +10,7 @@ In this repository, we introduce **Scylla**, an  solution  designed to enhance t
 ## Publication
 
 Scylla was approved for publication as a full-paper in the [IEEE Global Communications Conference (GLOBECOM 2024)](https://globecom2024.ieee-globecom.org/). The full paper can be found here: [https://ieeexplore.ieee.org/document/10901795](https://ieeexplore.ieee.org/document/10901795)
+
 If you wish to reference Scylla, you can use the following citation:
 ```
 J. C. Caroly, E. J. Scheid, M. F. Franco and L. Z. Granville, "Securing Blockchain Wallet Files Using eBPF," GLOBECOM 2024 - 2024 IEEE Global Communications Conference, Cape Town, South Africa, 2024, pp. 553-558, doi: 10.1109/GLOBECOM52923.2024.10901795.
