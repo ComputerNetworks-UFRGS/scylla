@@ -15,6 +15,19 @@ If you wish to reference Scylla, you can use the following citation:
 ```
 J. C. Caroly, E. J. Scheid, M. F. Franco and L. Z. Granville, "Securing Blockchain Wallet Files Using eBPF," GLOBECOM 2024 - 2024 IEEE Global Communications Conference, Cape Town, South Africa, 2024, pp. 553-558, doi: 10.1109/GLOBECOM52923.2024.10901795.
 ```
+.bib
+```
+@INPROCEEDINGS{globecom2024eBPF,
+  author={Jeison C. Caroly and Scheid, Eder J. and Muriel Figueredo Franco and Lisandro Zambenedetti Granville},
+  booktitle={IEEE Global Communications Conference (GLOBECOM 2024)}, 
+  title={{Securing Blockchain Wallet Files Using eBPF}}, 
+  year={2024},
+  address={Cape Town, South Africa},
+  pages={1--6},
+  month = {12},
+}
+```
+
 
 ## Key Features
 
